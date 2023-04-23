@@ -1,8 +1,8 @@
-## Project name:  
+## Project name:
 ***    
 **CRAFTOEVENT**
   
-## Project description:  
+## Project description:
 ***
 A fullstack web application built for one of my clients called Craftoevent.  
 Craftoevent is a company, which provides birthday decoration services to its customers.
@@ -11,7 +11,7 @@ Craftoevent is a company, which provides birthday decoration services to its cus
 ***
 The project is in development stage.
 
-## Project technologies: 
+## Project technologies:
 *** 
 The technologies that have been used to build the frontend and backend of this application are  
 as follows: 
@@ -29,7 +29,7 @@ as follows:
 **_For database_**:   
 - MongoDB  
 
-## Project URL:  
+## Project URL:
 ***
 Yet to be provided.
 
