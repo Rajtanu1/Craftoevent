@@ -1,14 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./public/css/index-styles.css" rel="stylesheet"/>
-  <link rel="shortcut icon" type="image/x-icon" href="./images/craftoevent-logo.jpg"/>
-  <title>Log in | Craftowork</title>
-</head>
-<body>
-<script src="./javascript/index-script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./public/css/index-styles.css" rel="stylesheet"/>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/craftoevent-logo.jpg"/>
+    <title>
+      Log in | Craftoevent
+    </title>
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="login-container__container-one container-one">
+        <div class="container-one__login-title">
+          Log In
+        </div>
+        <div class="container-one__image-wrapper">
+          <img class="container-one__image-wrapper-image" src="./public/images/craftoevent-logo.jpg" alt="craftoevent logo"/>
+        </div>
+      </div>
+      <div class="login-container__container-two container-two">
+        <button class="container-two__google-login-button google-login-button">
+          <i class="fa-brands fa-google google-login-button__icon"></i>
+          Log in with Google
+        </button> 
+        <div class="container-two__toggle-button toggle-button">
+          <div class="toggle-button__left-side active-side">
+            client
+            <i class="fa-solid fa-user toggle-button__client-icon"></i>
+          </div>
+          <div class="toggle-button__right-side inactive-side">
+            admin
+            <i class="fa-solid fa-key toggle-button__admin-icon"></i>
+          </div>
+        </div> 
+      </div>
+    </div>
+    <script src="./javascript/index-script.js"></script>
+  </body>
 </html>
